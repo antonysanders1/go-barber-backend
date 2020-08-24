@@ -1,7 +1,24 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+City.destroy_all
+
+#List of Cities
+City.create(name: 'Atlanta')
+City.create(name: 'Brookhaven')
+City.create(name: 'Douglasville')
+City.create(name: 'Duluth')
+City.create(name: 'East Point')
+City.create(name: 'Forest Park')
+City.create(name: 'Lawrenceville')
+City.create(name: 'Lilburn')
+City.create(name: 'Lithonia')
+City.create(name: 'Marietta')
+City.create(name: 'McDonough')
+City.create(name: 'Powder Springs')
+City.create(name: 'Redan')
+City.create(name: 'Roswell')
+City.create(name: 'Sandy Springs')
+City.create(name: 'Smyrna')
+City.create(name: 'Snellville')
+City.create(name: 'South Fulton')
+City.create(name: 'Stonecrest')
+City.create(name: 'Tucker')
+
