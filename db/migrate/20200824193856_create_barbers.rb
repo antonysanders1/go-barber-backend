@@ -3,7 +3,7 @@ class CreateBarbers < ActiveRecord::Migration[6.0]
     create_table :barbers do |t|
       t.string :name
       t.string :email
-      t.city_id :
+      t.integer :city_id
       t.string :online_status
       t.string :booked_status
 
