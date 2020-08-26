@@ -6,7 +6,7 @@ class Barber < ApplicationRecord
 
     validates :name, presence: true
     validates :email, uniqueness: true
-    validates_inclusion_of :status, :in => ["offline", "online", "booked"]
+    validates_inclusion_of :online_status, :in => ["offline", "online", "booked"]
 
 
 

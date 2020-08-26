@@ -8,7 +8,7 @@ class Api::V1::AppointmentsController < ApplicationController
     end
 
     def show
-        appointment = Appointment.find(id: params[:id])
+        appointment = Appointment.find(params[:id])
         render json: appointment
     end
 
@@ -18,6 +18,7 @@ class Api::V1::AppointmentsController < ApplicationController
             render json: appointment
         else
             render json: {error: 'Sorry! We could not create this request. Try again later.'}
+        end
     end
     
     private

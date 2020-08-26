@@ -15,6 +15,7 @@ class Api::V1::CustomersController < ApplicationController
             render json: customer
         else
             render json: {error: 'Sorry! Could not create this account. Try again later.'}
+        end
     end
 
 
@@ -28,7 +29,6 @@ class Api::V1::CustomersController < ApplicationController
 
     def customer_params
         params.require(:customer).permit(:name, :email, :city_id)
-        
     end
 
 

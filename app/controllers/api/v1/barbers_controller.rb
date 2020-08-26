@@ -15,6 +15,7 @@ class Api::V1::BarbersController < ApplicationController
             render json: barber
         else
             render json: {error: 'Sorry! Could not create this account. Try again later.'}
+        end
     end
 
     def destroy
