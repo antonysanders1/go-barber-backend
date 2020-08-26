@@ -1,4 +1,5 @@
 City.destroy_all
+Service.destroy_all
 
 #List of Cities
 City.create(name: 'Atlanta')
@@ -22,3 +23,13 @@ City.create(name: 'South Fulton')
 City.create(name: 'Stonecrest')
 City.create(name: 'Tucker')
 
+#List of Services
+Service.create(name: 'Kids Cuts' price: 12.00)
+Service.create(name: 'Standard Cuts' price: 20.00)
+Service.create(name: 'Straight Razor Shave' price: 15.00) 
+Service.create(name: 'Edge Up/Shape Up' price: 15.00) 
+Service.create(name: 'Eyebrow Arch' price: 8.00) 
+Service.create(name: 'Hair Coloring' price: 35.00) 
+Service.create(name: 'Relaxer/Perm Styles' price: 85.00) 
+Service.create(name: 'Designer Hair Styles' price: 65.00)
+Service.create(name: 'Hair Tattoos' price: 50.00)  

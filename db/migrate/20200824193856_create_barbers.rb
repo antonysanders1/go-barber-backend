@@ -5,7 +5,6 @@ class CreateBarbers < ActiveRecord::Migration[6.0]
       t.string :email
       t.integer :city_id
       t.string :online_status
-      t.string :booked_status
 
       t.timestamps
     end
